@@ -22,8 +22,8 @@
     <string name="str_dev_passed">The kernel supports loop disks. Debian Kit should run fine with this.</string>
     <string name="str_dev_failed">The kernel does not support loop disks. Without loop disks, Debian Kit may be installed to an extra partition on an external SD card. It may also be possible to install/load a kernel module to add loop disk support.</string>
     <string name="str_mod">Kernel modules supported</string>
-    <string name="str_mod_passed">Kernel modules are supported. Debian Kit should run fine with this.</string>
-    <string name="str_mod_failed">Kernel modules are not supported. Debian Kit should run with this, but it is not possible to add drivers to the kernel. If your kernel does not support loop disks or ext file systems, this may be a showstopper.</string>
+    <string name="str_mod_passed">Kernel modules are supported. Debian Kit should run fine like this.</string>
+    <string name="str_mod_failed">Kernel modules are not supported. Debian Kit should run like this, but it is not possible to add drivers to the kernel. If your kernel does not support loop disks or ext file systems, this may be a showstopper.</string>
     <string name="str_mnt">Files in %s/local executable</string>
     <string name="str_mnt_unknown">Error while reading /proc/mounts.</string>
     <string name="str_mnt_passed">Android data directory (%s) not mounted with \'noexec\'. Debian Kit can be unpacked and executed to the standard directory.</string>
