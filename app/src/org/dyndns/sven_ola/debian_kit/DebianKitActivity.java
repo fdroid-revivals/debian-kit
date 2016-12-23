@@ -77,7 +77,7 @@ public class DebianKitActivity extends Activity
 		protected Void doInBackground(Void... voids) {
 			String s;
 
-			// Check if CPU_ABI is arm or x86
+			// Check if CPU_ABI is arm, arm64, or x86
 			v_cpu.ic = R.drawable.ic_maybe;
 			v_cpu.s = getString(R.string.str_cpu_maybe);
 			if (0 < android.os.Build.CPU_ABI.length())
