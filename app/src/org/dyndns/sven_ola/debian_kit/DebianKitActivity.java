@@ -389,10 +389,6 @@ public class DebianKitActivity extends Activity
 	{
 		switch (item.getItemId())
 		{
-			case R.id.quit:
-			finish();
-			return true;
-
 			case R.id.download:
 			onDownload();
 			return true;

@@ -11,9 +11,5 @@
         android:title="@string/menu_download"
         android:alphabeticShortcut="d"
         android:showAsAction="ifRoom" android:icon="@drawable/ic_menu_download"/>
-    <item
-        android:id="@+id/quit" 
-        android:title="@string/menu_quit" 
-        android:icon="@drawable/ic_menu_close_clear_cancel"
-        android:showAsAction="ifRoom" android:alphabeticShortcut="q"/>
+	
 </menu>
