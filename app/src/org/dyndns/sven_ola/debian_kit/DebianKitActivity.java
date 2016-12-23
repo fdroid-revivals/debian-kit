@@ -83,7 +83,8 @@ public class DebianKitActivity extends Activity
 			if (0 < android.os.Build.CPU_ABI.length())
 			{
 				if (android.os.Build.CPU_ABI.startsWith("x86") ||
-					android.os.Build.CPU_ABI.startsWith("armeabi"))
+					android.os.Build.CPU_ABI.startsWith("armeabi") ||
+					android.os.Build.CPU_ABI.startsWith("arm64"))
 				{
 					v_cpu.ic = R.drawable.ic_passed;
 					v_cpu.s = String.format(getString(R.string.str_cpu_passed), android.os.Build.CPU_ABI);
